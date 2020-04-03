@@ -97,7 +97,7 @@ class App:
         rect = bar.get_rect()
         self.screen.blit(bar, (0, self.HEIGHT))  # 显示位置
 
-        font = pygame.font.Font('freesansbold.ttf',self.TEXT_HEIGHT*2//3)  # 字体和大小
+        font = pygame.font.SysFont("arial",self.TEXT_HEIGHT)  # 字体和大小
         TextSurface = font.render(text, True, self.WHITE)    # 要显示的字和颜色
         TextRect = TextSurface.get_rect()
         TextRect.center = ((self.WIDTH/2),(self.HEIGHT+self.TEXT_HEIGHT/2)) # 显示位置
