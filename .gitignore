@@ -1,0 +1,5 @@
+core/__pycache__
+core/build
+core/dist
+core/app.spec
+core/app.ico
